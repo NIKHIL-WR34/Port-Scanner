@@ -10,3 +10,10 @@ if len(sys.argv) == 2:
 else:
 	print("Invalid amount of arguements.")
 	print("Syntax: python3 scanner.py <IP Address>")
+
+#Add a banner
+print("-" * 50)
+print("Scanning target: "+target)
+print("Time started: "+str(datetime.now()))
+print("-" * 50)
+ 
